@@ -49,7 +49,7 @@ pipeline {
             echo 'Pipeline finished.'
             emailext(
                 to: 'mistyoky@gmail.com',
-                subject: 'JENKINS FEEDBACK - ALWAYS',
+                subject: 'JENKINS FEEDBACK from build - ALWAYS',
                 body: 'Here is the feedback from Jenkins: The pipeline has finished its execution.'
             )
         }
